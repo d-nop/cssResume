@@ -84,7 +84,10 @@ header h1, header h2 {
 
 .navigation {
   text-align: center;
-  background:#76E7CD;
+  /*background:#76E7CD;*/
+    position: fixed;
+    width: 100%
+
 
 
 }
@@ -92,8 +95,8 @@ header h1, header h2 {
   padding: 10px;
   display: inline-block;
   padding: 10px 95px;
-  color: #4A5043;
-  background-color:#B9D8C2;
+  color: white;
+  background-color:black;
   border-radius: 10px;
   text-decoration: none;
   text-transform: uppercase;
