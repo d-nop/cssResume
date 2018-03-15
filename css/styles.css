@@ -85,7 +85,7 @@ header h1, header h2 {
 .navigation {
   text-align: center;
   /*background:#76E7CD;*/
-    position: fixed;
+   /* position: fixed;*/
     width: 100%
 
 
@@ -101,6 +101,7 @@ header h1, header h2 {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 900;
+  opacity: .7;
 }
 
 header {
@@ -123,6 +124,18 @@ footer {
   /* background: white; */
   padding: 10px;
   display: inline-block;
+}
+
+/* Portfolio
+-------------------------------*/
+.projects {
+  display: inline-block;
+  margin-right: 5%;
+ 
+}
+
+.portfolio {
+  text-align: center;
 }
 
 
