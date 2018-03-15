@@ -1,0 +1,145 @@
+/* Color Palette
+#B9D8C2 - Silver Sand
+#8AA1B1 - Cadet Gray
+#4A5043 - Gray-Aspargus
+#FFCB47 - Sunglow
+#76E7CD - Middle Blue Green
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Caveat', cursive;
+*/
+
+/*Global styles
+-------------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #B9D8C2;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+h3{
+  margin: 0;
+}
+
+a {
+  color: #76E7CD;
+}
+
+a:hover{
+  text-decoration: none;
+  color: red ;
+}
+
+h1, h2 {
+  font-family: 'Caveat', cursive;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size:40px;
+  margin-top:0;
+}
+.content-wrap {
+  max-width:1200px;
+  margin: auto;
+  padding: 50px;
+  overflow: auto;
+}
+.col-narrow{
+  width: 30%;
+  float:left;
+  /* border: 1px solid black; */
+  }
+.col-wide {
+  width: 70%;
+  float: left;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.bold {
+  font-weight: 900;
+}
+/*Head and Footer
+-------------------------------*/
+
+header, footer {
+  background: #8AA1B1;
+  color: #4A5043 ;
+}
+
+/*header */
+header h1, header h2 {
+  color: #B9D8C2;
+  margin: 0;
+}
+
+.navigation {
+  text-align: center;
+  background:#76E7CD;
+
+
+}
+.navigation a {
+  padding: 10px;
+  display: inline-block;
+  padding: 10px 95px;
+  color: #4A5043;
+  background-color:#B9D8C2;
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+header {
+  /* text-align: center; */
+}
+.main-image {
+  width: 300px;
+  display: inline;
+  border-radius: 50%;
+  margin-right: 20px;
+
+}
+
+/*footer */
+footer {
+  text-align: center;
+}
+
+.contact-info a {
+  /* background: white; */
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/* Work Experience
+-------------------------------*/
+.work {
+  background: #FFCB47;
+}
+h3 ~ p{
+  margin:0;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+.job-description {
+  margin-bottom: 25px;
+}
+
+/* Education
+-------------------------------*/
+.education{
+  background: #76E7CD;
+}
